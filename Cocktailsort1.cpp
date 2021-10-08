@@ -4,6 +4,7 @@ using namespace std;
 
 void CockTailSort(int arr[], int n)
 {
+    //俩次优化加双向冒泡
 
     int left = 0;
     int right = n - 1;
